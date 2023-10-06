@@ -9,4 +9,4 @@ aluno4 = input('Qual seria o nome do quarto aluno?\n')
 lista = [aluno1, aluno2, aluno3, aluno4]
 random.shuffle(lista)
 
-print('A ordem de apresentação será:\n', lista)
+print('A ordem de apresentação será:\n', '\033[4;31m', lista, '\033[m')

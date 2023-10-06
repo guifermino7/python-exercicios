@@ -7,4 +7,4 @@ catad = float(input('Qual é o comprimento do cateto adjacente?\n'))
 
 hip = math.hypot(catop, catad)
 
-print('O calculo da hipotenusa dos catetos  {} e {}, adjacente e oposto, respectivamente, é {:.2f}' .format(catop, catad, hip))
+print('O calculo da hipotenusa dos catetos {}{}{} e {}{}{}, adjacente e oposto, respectivamente, é {}{:.2f}{}.' .format('\033[1;36m', catop, '\033[m', '\033[1;35m', catad, '\033[m', '\033[1;34m', hip, '\033[m'))

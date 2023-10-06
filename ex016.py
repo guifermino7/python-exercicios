@@ -5,4 +5,5 @@
 from math import trunc
 
 num = float(input('Digite um número Real, por favor: '))
-print('O número {} tem a parte Inteira {}.' .format(num, trunc(num)))
+
+print('O número {}{}{} tem a parte {}Inteira{} {}{}{}.' .format('\033[1;33m', num, '\033[m', '\033[1;34m', '\033[m','\033[4;36m', trunc(num), '\033[m'))

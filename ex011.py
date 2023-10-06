@@ -2,6 +2,9 @@
 
 lar = float(input('Qual seria a largura da parede?\n'))
 alt = float(input('Qual seria a altura da parede?\n'))
+
 area = lar * alt
+
 tinta = area / 2
-print('A área da parede é {:.2f}m² e precisa de {:.2f}l de tinta para pinta-la!' .format(area, tinta))
+
+print('A área da parede é {}{:.2f}{}m² e precisa de {}{:.2f}{}l de tinta para pinta-la!' .format('\033[4;35m', area, '\033[m', '\033[4;36m', tinta, '\033[m'))

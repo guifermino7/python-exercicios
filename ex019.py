@@ -10,4 +10,4 @@ aluno4 = input('Qual o nome do quarto aluno?\n')
 lista = [aluno1, aluno2, aluno3, aluno4]
 escolhido = choice(lista)
 
-print('O aluno sorteado foi {}!' .format(escolhido))
+print('O aluno sorteado foi {}{}{}!' .format('\033[4;35m', escolhido, '\033[m'))
